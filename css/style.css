@@ -1,0 +1,48 @@
+ /* .row {
+        display: flex;
+        gap: 20px 0px;
+    }
+
+    nav {
+        background: white;
+    }
+
+    .nav3 {
+        margin-right: 30px;
+        display: flex;
+        gap: 30px;
+        text-decoration: none;
+    }
+
+    .nav3 a {
+        text-decoration: none;
+        color: white
+    }
+
+    .nav3 a:hover {
+        color: wheat;
+    }
+
+    /* main */
+    /* .personal {
+        width: 400px;
+        margin: 40px;
+
+    }
+
+    .contact h1 {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-main{
+        background: whitesmoke;
+    }
+    .img{
+        width: 40px;
+    } */ * 
+.container{
+    background-image: url(img/image.png);
+    width: 100%;
+    
+}    

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Bootstrap Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    .containe{
+        padding-top: 60px;
+    }
+    .logo img {
+        width: 80px;
+        border-radius: 100px;
+        margin-left: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 900;
+
+    }
+
+    .nav3 {
+        margin-right: 40px;
+        gap: 30px;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+    }
+
+    .nav3 a {
+        text-decoration: none;
+    }
+
+    .containe {
+        background-image: url('https://st3.depositphotos.com/18844808/33200/i/450/depositphotos_332006280-stock-photo-confectionery-bakery-banner-festive-cake.jpg');
+        background-size: cover;
+        height: 400px;
+         
+    }
+
+    .container {
+        height: 50px;
+    }
+
+    .col-md-4 {
+        margin-top: 40px;
+    }
+
+    .container h2 {
+        /* padding: 50%; */
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="logo">
+            <img src="https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-c314-622f-ba8a-0df6db284280/raw?se=2025-09-06T09%3A54%3A12Z&sp=r&sv=2024-08-04&sr=b&scid=87629ed8-18fb-5b77-b189-653a3da3ef78&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-05T17%3A43%3A59Z&ske=2025-09-06T17%3A43%3A59Z&sks=b&skv=2024-08-04&sig=XjBHN95R5aEbtdyVS%2BHv10R1X4PxMlE7ZRWxVgxdIgU%3D"
+                alt="" border-radius="50px">
+        </div>
+        <div class="nav3">
+            <a href="#Home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#About">About</a>
+        </div>
+    </nav>
+    <!-- Hero Section -->`
+    <!-- <img src="https://t4.ftcdn.net/jpg/05/39/99/67/360_F_539996737_T5gJEIEqsGUjMXhrLZt0lDLcrOWsSHlb.jpg" alt=""> -->
+    <div class="containe text-center ">
+        <h1 class="display-4">Welcome to Z'rey-Nit Store</h1>
+        <p class="lead">This is our manu in page.</p>
+        <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container">
+        <h2><b>Cake</b></h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_287866824a1a4445b4df961c623a005e~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/4_Brown%20Sugar%20Bubble%20Mille%20Crepe%20Cake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Brown Sugar Mille Crepe Cake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_bb9d05105f4b45aa8059e4876dbe8bd0~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/6_Cr%C3%A8me%20Br%C3%BBl%C3%A9e%20Mille%20Crepe%20Cake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Brulee Mille Crepe Cake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_60d3f9d7fec3469cadd2b573cbd66c47~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/1_Mango%20Mille%20Crepe%20Cake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mango Mille Crepe Cake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_a7c84bf82a3b463f84dabf9679da5dc2~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/3_Green%20Tea%20Mille%20Crepe%20Cake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Green Tea Mille Crepe Cake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_faa04098782a47aba5e5177cb2591dcd~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/12_Mango%20Pancake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mango Pancake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_880d9dbb16ef44cfa8e5d86f910d5c4f~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2_Durian%20Mille%20Crepe%20Cake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Durian Mille Crepe Cake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_aa4eb1d3c1d148849a62ef4c3067ec5b~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/5_Oreo%20Mille%20Crepe%20Cake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Oreo Mille Crepe Cake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_110042e881b34bad96c71d429238933a~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/9_Tiramisu.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiramisu</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_11e90951d6bf41c291967e90c55d3b99~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/7_Dark%20Chocolate%20Matcha%20Honey%20Cake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Dark Chocolate Matcha Honey Cake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_93672785441c41b49a4aadf20404a651~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/10_Mango%20Mousse%20Cake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mango Mousse Cake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_e94c591e98804084bfada016d53c246c~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/20_Magnum%20Chocolate.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Magnum Chocolate</h5>
+                        <p>$3.5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_60d3f9d7fec3469cadd2b573cbd66c47~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_872,h_616,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/1_Mango%20Mille%20Crepe%20Cake.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mango Mille Crepe Cake</h5>
+                        <p>$5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- desser -->
+            <h2><b>Dessert</b></h2>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_3fe897cc69ab43738d0c3de56a7fcf0e~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_778,h_652,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/5_Triple%20Ice%20Cream%20Delight.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Green Tea Pistachios Sundae</h5>
+                        <p>$3.5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_caef24fd22424aec86204f49491374f9~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_778,h_652,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2_Vanilla%20Strawberry%20Sundae%20with%20Chocolate%20Syrup.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Vanilla Strawberry </h5>
+                        <p>$3.5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_7af80a5732f84b11a878fd4d26033be0~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_778,h_652,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/3_Coconut%20Mixed%20Fruit%20Sundae%20w_%20Cheese%20Foam.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Coconut Mixed Fruit</h5>
+                        <p>$3.5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_ae07850ac5ba4aebbdd94ecbff9e7761~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_778,h_652,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/1_Mango%20Sundae.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mango Sundae</h5>
+                        <p>$3.5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_31b1dd16b9c54716b71db1cf66d5a1d5~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_778,h_652,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/4_Green%20Tea%20Pistachios%20Sundae.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Green Tea Pistachios Sundae </h5>
+                        <p>$3.5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_ef6fa47299b249ad967b2797daa2f74a~mv2.png/v1/crop/x_0,y_75,w_3300,h_2324/fill/w_778,h_652,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/6_Waffle_Ice_Cream_Sandwich.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Waffle Ice Cream Sandwich</h5>
+                        <p>$3.5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- green tea -->
+            <h2><b>Milk Tea</b></h2>
+
+            <!-- <div class="green-tea">
+
+            </div> -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_508fe91570fa4b46b6e673481f30f58c~mv2.png/v1/crop/x_588,y_0,w_2123,h_2475/fill/w_616,h_812,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/1_Signature%20Bubble%20Milk%20Tea.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Signature Bubble Milk Tea</h5>
+                        <p>$2</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_649888201efb4f7f85fc6c341cd7ddcc~mv2.png/v1/crop/x_588,y_0,w_2123,h_2475/fill/w_616,h_812,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/10_Mango%20Bubble%20Milk%20Tea.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mango Bubble Milk Tea</h5>
+                        <p>$2</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_6c992098003046f2b98c3f7bf6aeea30~mv2.png/v1/crop/x_588,y_0,w_2123,h_2475/fill/w_616,h_812,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/8_Blush%20Rose%20Bubble%20Milk%20Tea.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Blush Rose Bubble Milk Tea/h5>
+                            <p>$3.5</p>
+                            <p class="card-text">Cards look great on all devices!</p>
+                            <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_c7490984174f426d8ca7be122f9f901f~mv2.png/v1/crop/x_588,y_0,w_2123,h_2475/fill/w_616,h_812,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2_Brown%20Sugar%20Boba%20Milk.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Brown Sugar Boba Milk</h5>
+                        <p>$3.5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_60d4c7afb8a0459490b861faa2db8655~mv2.png/v1/crop/x_588,y_0,w_2123,h_2475/fill/w_616,h_812,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/3_Thai%20Bubble%20Milk%20Tea.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Thai Bubble Milk Tea</h5>
+                        <p>$3.5</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_56699dc59ec84dcb990380f84866f58f~mv2.png/v1/crop/x_588,y_0,w_2123,h_2475/fill/w_616,h_812,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/4_Taro%20Bubble%20Milk%20Tea.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Taro Bubble Milk Tea</h5>
+                        <p>$2</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_d7d697b67cb54cfbb57fa9aaf75f49b5~mv2.png/v1/crop/x_588,y_0,w_2123,h_2475/fill/w_616,h_812,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/5_Oreo%20Br%C3%BBl%C3%A9e%20Bubble%20Milk%20Tea.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Oreo Brûlée Bubble Milk Tea</h5>
+                        <p>$2</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_172563d732c8479a86447e52e52dbc3a~mv2.png/v1/crop/x_588,y_0,w_2123,h_2475/fill/w_616,h_812,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/6_Matcha%20Br%C3%BBl%C3%A9e%20Bubble%20Milk%20Tea.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Matcha Brûlée Bubble Milk Tea</h5>
+                        <p>$2</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://static.wixstatic.com/media/acecb8_ebeae903d87f449fbf41751175df49a9~mv2.png/v1/crop/x_588,y_0,w_2123,h_2475/fill/w_616,h_812,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/7_Coconut%20Bubble%20Milk%20Tea.png"
+                        alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Coconut Bubble Milk Tea</h5>
+                        <p>$2</p>
+                        <p class="card-text">Cards look great on all devices!</p>
+                        <a href="#" class="btn btn-outline-primary">Order</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        
+        <hr>
+        <!-- Contact Section -->
+        <form class="mx-auto" style="max-width: 500px;">
+            <h2>Contact Us</h2>
+            <p>Email: nitt@store.com</p>
+            <p>Phone: +855 9999 777</p>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning">Send</button>
+        </form>
+<div id="contact" class="container py-5 text-center">
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 z'rey nit store. All Rights Reserved.</p>
+</footer>
+
+        <!-- Footer -->
+         
+        
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+        </script>
+</body>
+
+</html>
